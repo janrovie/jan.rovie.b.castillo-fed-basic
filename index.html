@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <script type="text/javascript"></script>
+    <title>GigaShop PH</title>
+</head>
+
+<body>
+
+    <header>
+      <img class ="logo" src="img/logo.png" width="70" height="50">
+      <nav>
+
+            <ul class="main-nav">
+              <li><h1>Giga<span>Shop</span></h1></li>
+            </ul>
+
+        </nav>
+        <a class="shopBag" id="myBtn"><img src="img/shopping-bag.png" width="40" height="40"><span>0</span></a>
+    </header>
+ 
+
+
+    <div id="myModal" class="modal">
+   
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="products-container">
+                <div class="products-header">
+                    <h5 class="product-title">PRODUCT</h5>
+                    <h5 class="product-price">PRICE</h5>
+                    <h5 class="product-quantity">QUANTITY</h5>
+                    <h5 class="product-total">TOTAL</h5>
+                </div>
+                <div class="products"></div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+        <div class="carousel-container">
+
+          
+
+              
+              <img class="mySlide fade" src="slider/cover.jpg">
+              <img class="mySlide fade" src="slider/cover2.jpg">
+              <img class="mySlide fade" src="slider/cover3.jpg">
+             
+              
+         
+            
+  
+            <button id ="prevButton"onclick="plusSlides(-1)" type="button">&#10094;</button>
+            <button id ="nxtButton"onclick="plusSlides(1)" type="button">&#10095;</button>
+             
+        </div>
+
+
+         <main class="container" id="mainContainer">
+	   
+       </main>
+      
+    
+
+
+
+<footer class="white"><p> Copyright &copy; 2020 FED Basic Assessment.</p></footer>  
+    <script src="script.js"></script>
+   
+  </body>
+</html>
